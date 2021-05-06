@@ -8,7 +8,22 @@
       <link rel="shortcut icon" type="image/png" href="img/icon.png" />
     </head>
     <body>
+      <nav>
+        <p class="welcome">Log in to play draughts</p>
+        <img src="img/icon.png" alt="logo" class="logo" />
+        <form>
+          <input type="text" placeholder="login" class="login__input--user" />
+          <input
+            type="text"
+            placeholder="password"
+            class="login__input--password"
+          />
+        </form>
+        <button class="login__btn">Log in</button>
+        <button class="newacc__btn">Create new account</button>
+      </nav>
       <script src="script.js"></script>
+      <script src="authorizationLogic.js"></script>
     </body>
   </html>
 </html>
