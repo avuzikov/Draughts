@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta http-equiv="X-UA-Compatible" content="ie=edge" />
       <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+      <link rel="stylesheet" href="style.css" />
     </head>
     <body>
       <nav>
@@ -22,6 +23,13 @@
         <button class="login__btn">Log in</button>
         <button class="newacc__btn">Create new account</button>
       </nav>
+      <div class="overlay hidden"></div>
+      <button class="upd__tmr--btn hidden">Update timer</button>
+      <button class="logout--btn hidden">Log out</button>
+      <p class="logout-timer hidden">
+        You will be logged out in <span class="timer">5:00</span>
+      </p>
+      <!--scripts-->
       <script src="script.js"></script>
       <script src="authorizationLogic.js"></script>
     </body>
